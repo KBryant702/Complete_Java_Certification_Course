@@ -1,0 +1,14 @@
+package Java_Basics;
+
+public class LearningArrays {
+
+	public static void main(String[] args) {
+		int [] values = new int[100];//declaring variable of type int in array with 100 slots 
+		values[2] = 1000;
+		values[99] = 93432;
+		
+		System.out.println(values[54]);
+		
+	}
+
+}
