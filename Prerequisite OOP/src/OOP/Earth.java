@@ -13,8 +13,8 @@ public class Earth {
 		tom.speak();
 		
 		
-		Human joe;
-		joe = new Human();
+		Human joe = new Human();
+		
 		joe.age = 12;
 		joe.eyeColor = "Blue";
 		joe.heightInInches = 60;
