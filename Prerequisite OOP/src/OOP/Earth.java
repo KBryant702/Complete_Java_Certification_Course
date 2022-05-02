@@ -1,6 +1,7 @@
 package OOP;
 public class Earth {
 	public static void main(String args[]) {
+		//instances of the human class
 		Human human1 = new Human("Tom", 25, 76, "Brown");
 		Human human2 = new Human("Amy", 15, 46, "Blue");
 		Human human3 = new Human("Bob", 16, 60, "Green");
