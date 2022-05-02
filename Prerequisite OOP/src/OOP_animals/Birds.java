@@ -1,14 +1,15 @@
 package OOP_animals;
 
 public class Birds {
-	String birdName;
+	 String birdName;
 	 
 	public Birds(String birdName) {
-		this.birdName = birdName;
+	this.birdName = birdName;
 	}
-	public void speak() {
+	public void talk() {
 		System.out.println("I am a " + birdName);
-		}
+		
+	}
 	public void fly() {
 		System.out.println("I am a flyer");
 		

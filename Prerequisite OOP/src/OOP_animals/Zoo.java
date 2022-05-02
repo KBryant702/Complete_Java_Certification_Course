@@ -14,14 +14,18 @@ public class Zoo {
 		animal3.eat();
 		
 		Birds bird1 = new Birds("Robin");
-		bird1.speak();
-		bird1.fly();
 		Birds bird2 = new Birds("Ostrich");
-		bird2.speak();
-		bird2.running();
 		Birds bird3 = new Birds("Penguin");
-		bird3.speak();
+		bird1.talk();
+		bird1.fly();
+		bird2.talk();
+		bird2.running();
+		bird3.talk();
 		bird3.swim();
+		
+		Fish fish1 = new Fish("Guppy");
+		fish1.talk();
+		fish1.swim();
 	}
 
 }
