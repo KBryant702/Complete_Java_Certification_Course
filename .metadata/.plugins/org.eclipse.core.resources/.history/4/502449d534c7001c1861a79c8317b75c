@@ -1,0 +1,14 @@
+package Java_Basics;
+
+public class LearningMethods {
+
+	public static void main(String[] args) {
+		System.out.println("PrintLine method");
+		printSomeJunk();
+
+	}
+
+	public static void printSomeJunk() {
+		System.out.println("printSomeJunk Method");
+	}
+}

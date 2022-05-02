@@ -1,0 +1,16 @@
+package Java_Basics;
+
+public class LearningMethods {
+
+	public static void main(String[] args) {
+//		System.out.println("PrintLine method");
+//		MyUtils.printSomeJunk("Assigned using String argument in printSomeJunk method");
+//		MyUtils.sum2Numbers(10, 23);
+		int myvar = MyUtils.add10(99);
+		System.out.println(myvar);
+	}
+
+	
+	
+	
+}
