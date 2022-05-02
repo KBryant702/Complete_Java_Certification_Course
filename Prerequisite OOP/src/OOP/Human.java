@@ -6,11 +6,16 @@ public class Human {
 	int age;
 	int heightInInches;
 	String eyeColor;
-	//constructor that makes objects of type human
-	public Human(){
-		
-	}
 	
+	
+	public Human(String name, int age, int heightInInches, String eyeColor) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.heightInInches = heightInInches;
+		this.eyeColor = eyeColor;
+	}
+
 	//instructions for how humans behave
 	public void speak() {
 		System.out.println("Hello, my name is " + name);
