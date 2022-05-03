@@ -1,12 +1,12 @@
-package OOP_animals;
+package Inheriting;
 
-public class Animals {
+public class Animal {
  String animalName;
  int age;
  int weight;
  char gender;
  
-public Animals(String animalName, int age, int weight, char gender) {
+public Animal(String animalName, int age, int weight, char gender) {
 	this.animalName = animalName;
 	this.age = age;
 	this.weight = weight;
