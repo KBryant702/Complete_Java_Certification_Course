@@ -349,3 +349,7 @@
 2022-05-02 20:10:44,723 [Worker-49: Launching Zoo (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\First\Desktop\Complete_Java_Certification_Course\Prerequisite OOP\src\test\resources
 2022-05-02 20:12:10,925 [Worker-50: Launching Zoo (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-05-02 20:12:10,927 [Worker-50: Launching Zoo (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\First\Desktop\Complete_Java_Certification_Course\Prerequisite OOP\src\main\resources
+2022-05-02 20:12:10,929 [Worker-50: Launching Zoo (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-02 20:12:10,930 [Worker-50: Launching Zoo (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\First\Desktop\Complete_Java_Certification_Course\Prerequisite OOP\src\test\resources
+2022-05-02 22:21:23,431 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-02 22:21:23,434 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\First\Desktop\Complete_Java_Certification_Course\Prerequisite OOP\src\main\resources
