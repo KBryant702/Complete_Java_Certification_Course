@@ -6,5 +6,11 @@ public class Bird extends Animal {
 		super(animalName, age, weight, gender);
 		
 	}
+
+	@Override
+	public void move() {
+		System.out.println("Flapping wings...");
+		
+	}
 	
 }

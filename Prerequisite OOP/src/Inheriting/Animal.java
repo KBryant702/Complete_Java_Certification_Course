@@ -1,6 +1,6 @@
 package Inheriting;
 
-public class Animal {
+public abstract class Animal {
  String animalName;
  int age;
  int weight;
@@ -22,11 +22,11 @@ public void speak() {
 public void eat() {
 	System.out.println("I am eating...");	
 }
-public void walk() {
-	System.out.println("I'm walking here...");
-}
+//public void walk() {
+//	System.out.println("I'm walking here...");
+//}
 public void sleep() {
 	System.out.println("Shh...Sleeping...");
 }
- 
+ public abstract void move();
 }
