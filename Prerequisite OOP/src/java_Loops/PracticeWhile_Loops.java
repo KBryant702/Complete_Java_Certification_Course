@@ -1,6 +1,6 @@
 package java_Loops;
 
-public class Practice_Loops {
+public class PracticeWhile_Loops {
 
 	public static void main(String[] args) {
 		//first lesson

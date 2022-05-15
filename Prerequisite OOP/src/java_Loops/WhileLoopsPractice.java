@@ -1,6 +1,6 @@
-package loopsProject;
+package java_Loops;
 
-public class LoopsPractice {
+public class WhileLoopsPractice {
 
 	public static void main(String[] args) {
 	 String str = "We have a large inventory of things in our warehouse falling in "+
