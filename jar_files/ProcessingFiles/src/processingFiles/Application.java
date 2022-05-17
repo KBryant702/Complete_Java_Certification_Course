@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 public class Application {
 
-	public static void main(String[] args) throws FileNotFoundException {
-		
+	public static void main(String[] args) {
+
 //		Scanner Input
 //		for (int i = 0; i <=3; i++ ) {
 //		Scanner input = new Scanner(System.in);
@@ -16,13 +16,23 @@ public class Application {
 //		System.out.println(enteredText);
 //		
 //		}
-		
-		File file = new File("MyFile.txt");
-		Scanner input = new Scanner(file);
-		while(input.hasNextLine()) {
-			String line = input.nextLine();
-			System.out.println(line);
-		}
+		// read from file
+		try {
+			File file = new File("MyFile.txt");
+			Scanner input;
+
+			input = new Scanner(file);
+
+			while (input.hasNextLine()) {
+				String line = input.nextLine();
+				System.out.println(line);
+			}
 			input.close();
+			
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+
+		}
 	}
+
 }
