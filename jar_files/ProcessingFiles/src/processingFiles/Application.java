@@ -30,9 +30,16 @@ public class Application {
 			input.close();
 			
 		} catch (FileNotFoundException e) {
-			e.printStackTrace();
+			System.out.println("file not found");
+			//e.printStackTrace();
 
 		}
+		MYFileUtils myUtil = new MYFileUtils();
+		try {
+			System.out.println(myUtil.subtract10FromLargerNumber(9));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
-
+	
 }
