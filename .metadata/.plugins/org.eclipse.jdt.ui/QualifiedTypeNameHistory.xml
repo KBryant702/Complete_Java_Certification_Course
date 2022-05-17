@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="someOtherPackage.ExampleClass"/>
+    <fullyQualifiedTypeName name="car_dealership.customer"/>
+    <fullyQualifiedTypeName name="car_dealership.Vehicle"/>
 </qualifiedTypeNameHistroy>
