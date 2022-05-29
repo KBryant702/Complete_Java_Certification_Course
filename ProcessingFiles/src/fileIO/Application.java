@@ -8,20 +8,28 @@ public class Application {
 
 	public static void main(String[] args) throws FileNotFoundException {
 
-		//Scanner class
+		// Scanner class
 //		for (int i = 0; i <= 3; i++) {
 //			Scanner input = new Scanner(System.in);
 //			System.out.println("Enter some Text");
 //			String enteredText = input.nextLine();
 //			System.out.println(enteredText);
 //		}
-		//File class
-				File file = new File("myFile.txt");
-				Scanner input = new Scanner(file);
-				while(input.hasNextLine()) {
-					String line = input.nextLine();
-					System.out.println(line);
-				}
-				input.close();
+		// File class
+		try {
+			File file = new File("myFile.txt");
+			Scanner input;
+
+			input = new Scanner(file);
+
+			while (input.hasNextLine()) {
+				String line = input.nextLine();
+				System.out.println(line);
+			}
+			input.close();
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
 	}
 }
