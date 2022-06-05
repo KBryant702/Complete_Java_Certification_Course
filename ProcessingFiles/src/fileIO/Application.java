@@ -17,7 +17,7 @@ public class Application {
 //		}
 		// File class
 		try {
-			File file = new File("myFile.txt");
+			File file = new File("myFile2.txt");
 			Scanner input;
 
 			input = new Scanner(file);
@@ -35,7 +35,7 @@ public class Application {
 		
 		MyFileUtils myUtil = new MyFileUtils();
 		try {
-			System.out.println(myUtil.subtract10FromLargerNumber(5));
+			System.out.println(myUtil.subtract10FromLargerNumber(9));
 		} catch (Exception e) {
 			
 			e.printStackTrace();
