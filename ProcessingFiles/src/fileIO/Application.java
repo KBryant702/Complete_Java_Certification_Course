@@ -35,7 +35,7 @@ public class Application {
 		
 		MyFileUtils myUtil = new MyFileUtils();
 		try {
-			System.out.println(myUtil.subtract10FromLargerNumber(9));
+			System.out.println(myUtil.subtract10FromLargerNumber(12));
 		} catch (Exception e) {
 			
 			e.printStackTrace();
