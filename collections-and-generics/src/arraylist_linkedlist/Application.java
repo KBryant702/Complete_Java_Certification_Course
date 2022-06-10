@@ -1,3 +1,4 @@
+package arraylist_linkedlist;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
@@ -27,6 +28,7 @@ public class Application {
 		numbers.add(200);
 		numbers.add(45);
 		numbers.add(1000);
+		//numbers.removeFirst();
 		numbers.remove(2);
 		
 		for(int number : numbers) {
