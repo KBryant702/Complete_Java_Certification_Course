@@ -17,7 +17,7 @@ public class StockFileApplication {
 		StockFileData fileData = new StockFileData();
 		fileData.addData(dataResult);
 		fileData.printData();
-		System.out.println(dataResult.size());
+		
 	}
 	/**
 	 * Complete the method body so that it returns the given structure needed to 
@@ -28,9 +28,26 @@ public class StockFileApplication {
 	 */
 	public static List<HashMap<String, Double>> populateStockFileData(List<String> headers, List<String> lines){
 		List<HashMap<String, Double>> dataResult = new ArrayList<>();
-		// Insert your code here..
+		
+		for(String line : lines) {
+			//split the line by commas
+			String [] values = line.split(",");
+			//counter variable for headers
+			int cnt = 0;		
+			//Define the hashmap
+			HashMap<String, Double>	headerValueMap = new HashMap<>();	
+			//iterate over the values array	
+			for(String value : values) {
+				//convert string to double
+				double dval = Double.parseDouble(value);
+				//populate the map with key and values
+				headerValueMap.put(headers.get(cnt), dval);
+				cnt++;
+				
+			}
+			dataResult.add(headerValueMap);
+		}
 		return dataResult;
 	}
-	
 	
 }
