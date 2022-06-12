@@ -2,7 +2,7 @@ package collectionMethodsAndUsingComparableInterface;
 
 /*Sorting Data
 User Defined types get tricky - User defined has to specify how we want the data to be sorted
-using comparable interface and compareTo method*/
+User Defined Types need comparable interface and compareTo method*/
 public class Employee implements Comparable<Employee>{
  String name;
  int salary;
@@ -24,7 +24,7 @@ public int compareTo(Employee o) {
 	}
 	return 0;
 }
-
+// don't forget ToString method for user friendly output
 @Override
 public String toString() {
 	return "Employee [name = " + name + ", salary = " + salary + ", department = " + department + "]";
