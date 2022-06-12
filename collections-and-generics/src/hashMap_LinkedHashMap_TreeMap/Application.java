@@ -10,14 +10,17 @@ public class Application {
 	public static void main(String[] args) {
 		
 		/*TreeMap maintains natural order of the entries. With String that is alphabetical order, Numbers it numerical order.
-		  
+		  HashMap, LinkedHashMap and TreeMaps are not suitable for storing duplicates.
+		  Reminder - user wrapper classes not primitives
 		 */
 		TreeMap<String, String> dictionary = new TreeMap<String, String>();
 		dictionary.put("Brave", " ready to face and endure danger or pain; showing courage.");
-		dictionary.put("Brilliant", "exeptionally clever or talented");
+		dictionary.put("Brilliant", "exceptionally clever or talented");
 		dictionary.put("Joy", "a feeling of great pleasure and happiness");
-		dictionary.put("Confidence", "the state of feelin certain about the truth of something.");
+		dictionary.put("Confidence", "the state of feeling certain about the truth of something.");
 	
+		//Overwrites the original key of brilliant with the new definition
+		dictionary.put("Brilliant", " xxxxxxxxxxxxx");
 	
 		for(Map.Entry<String, String> entry :dictionary.entrySet()) {
 			System.out.println(entry.getKey());
@@ -32,9 +35,9 @@ public class Application {
 		/* LinkedHasMap is similar to a HashMap but it preserves the order of insertion*/
 //		LinkedHashMap<String, String> dictionary = new LinkedHashMap<String, String>();
 //		dictionary.put("Brave", " ready to face and endure danger or pain; showing courage.");
-//		dictionary.put("Brilliant", "exeptionally clever or talented");
+//		dictionary.put("Brilliant", "exceptionally clever or talented");
 //		dictionary.put("Joy", "a feeling of great pleasure and happiness");
-//		dictionary.put("Confidence", "the state of feelin certain about the truth of something.");
+//		dictionary.put("Confidence", "the state of feeling certain about the truth of something.");
 	
 //		for(String word : dictionary.keySet()){
 //			System.out.println(dictionary.get(word));
@@ -59,9 +62,9 @@ public class Application {
 		/*Inside angle brackets <identify the key, then the data type for the value> Words are Strings and so are the definitions*/
 //		HashMap<String, String> dictionary = new HashMap<String, String>();
 //		dictionary.put("Brave", " ready to face and endure danger or pain; showing courage.");
-//		dictionary.put("Brilliant", "exeptionally clever or talented");
+//		dictionary.put("Brilliant", "exceptionally clever or talented");
 //		dictionary.put("Joy", "a feeling of great pleasure and happiness");
-//		dictionary.put("Confidence", "the state of feelin certain about the truth of something.");
+//		dictionary.put("Confidence", "the state of feeling certain about the truth of something.");
 //		
 	/*Can't use dictionary to iterate over. have use the dictionary dot to invoke the key set method. */
 //		//.keySet makes it possible to iterate over the keysets in a HashMap.
