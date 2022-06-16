@@ -3,4 +3,19 @@
     <fullyQualifiedTypeName name="someOtherPackage.ExampleClass"/>
     <fullyQualifiedTypeName name="car_dealership.customer"/>
     <fullyQualifiedTypeName name="car_dealership.Vehicle"/>
+    <fullyQualifiedTypeName name="com.kim.exceptions.FooTuntimeException.FooRuntimeException"/>
+    <fullyQualifiedTypeName name="com.kim.exceptions.FooRuntimeException"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

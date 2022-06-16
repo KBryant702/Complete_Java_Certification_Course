@@ -18,6 +18,7 @@ public class StockFileApplication {
 		fileData.addData(dataResult);
 		fileData.printData();
 		
+		
 	}
 	/**
 	 * Complete the method body so that it returns the given structure needed to 

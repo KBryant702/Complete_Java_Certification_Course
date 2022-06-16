@@ -5,6 +5,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="stock-analysis/src/client/AggregatorApp.java"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

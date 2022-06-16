@@ -49,7 +49,8 @@ public class Application {
 	}
 	
 	public static void makeEmployeeWork(List<? extends Employee> employees) {
-		for(Accountant emp : (ArrayList<Accountant>)employees) {
+		//Don't depend on this typecast like this it causes compiler warnings
+		for(HRManager emp : (ArrayList<HRManager>)employees) {
 			emp.work();
 		}
 	}

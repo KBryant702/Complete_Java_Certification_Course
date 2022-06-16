@@ -5,9 +5,6 @@ import java.util.List;
 
 public class MaxAggregator extends Aggregator{
 	
-	public MaxAggregator(List<Double> numbers) {
-		this.numbers = new ArrayList<Double>();
-	}
 
 	@Override
 	public double calculate() {
@@ -18,6 +15,16 @@ public class MaxAggregator extends Aggregator{
 			}
 		}
 		return max;
+	}
+
+	public MaxAggregator() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public MaxAggregator(List<Double> numbers) {
+		super(numbers);
+		// TODO Auto-generated constructor stub
 	}
 
 	@Override

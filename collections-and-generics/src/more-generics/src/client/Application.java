@@ -11,7 +11,10 @@ public class Application {
 	Container<Integer, String> container = new Container<>(12, "Hello");	
 	int val1 = container.getItem1();
 	String val2 = container.getItem2();
-	System.out.println(val1 + val2);
+//	System.out.println(val1 + val2);
+	
+	Container<Double, Integer> container2 = new Container<>(12.00, 300);
+	
 	
 	Set<String> mySet1 = new HashSet<String>();
 	mySet1.add("First");

@@ -1,5 +1,6 @@
 package even_more_generics;
 
-public class HRManager {
+public class HRManager extends Employee{
+	
 
 }
